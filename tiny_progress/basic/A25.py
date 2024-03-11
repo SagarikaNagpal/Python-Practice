@@ -1,25 +1,14 @@
 # Question A25: WAP to swap the values of two integer variables
-# Using extra variable
-# Without using extra variable
+# (a)	Using extra variable
+# (b)	Without using extra variable
 
+a,b = 2,3
+print(a,b)
+b, a = a,b
+print(a,b)
 
-from calendar import c
-
-
-print('No extra variable')
-
-a= 25
-b = 12
-print( a,b )
-# a,b = b,a
-print("Final are from :", a,b )
-
-# Using extra variable 
-
+print('*************')
 c = a
 a = b
 b = c
-
-print("Final from extr variables :", a,b,c )
-print('{0},{1}'.format(a,b))
-
+print(a,b)
